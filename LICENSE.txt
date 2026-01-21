@@ -1,0 +1,2 @@
+The resources provided in this repository are the intellectual property of Mojang Studios. 
+They are provided here solely for backward compatibility with older versions of Minecraft.
