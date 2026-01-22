@@ -1,12 +1,18 @@
-# BananCraft Assets
+# 📦 BananCraft Launcher Assets
 
-This repository hosts official resources (sounds, music, and icons) for the **BananCraft** launcher.
+This repository serves as a backend storage for the **BananCraft Launcher** update system and legacy asset management.
 
-## Purpose
-These files are used by the `LegacyAssetManager` to restore original Alpha and Beta Minecraft sounds. Since Mojang's original S3 servers are no longer active, this repository serves as a reliable mirror for the community.
+### ⚠️ Technical Repository
+This repository is **not intended for manual use**. The files stored here are automatically fetched and processed by the launcher's built-in engine.
 
-## Content
-- `beta_sounds.zip` - A complete collection of legacy sounds (including the classic "Oof", old door sounds, and footstep audio) sourced from Web Archive.
+### 📁 Key Files & Resources:
+* **`BananCraftUpdate_X.X.X.exe`**: Executable update packages used by the auto-updater.
+* **`beta_sounds.zip`**: A collection of legacy sound assets required for Alpha and Beta versions of Minecraft. 
+* **`legacy.json`**: Configuration file used to map and restore old sound paths for compatibility with modern systems.
 
-## Disclaimer
-All assets are the property of Mojang Studios / Microsoft. This repository is for archival and compatibility purposes for the BananCraft launcher only.
+### 🚫 Instructions for Users:
+* **Do not download or move these files manually.** * The launcher is programmed to download and install these assets into the `%appdata%/.banancraft` directory automatically when needed.
+* Modifying or deleting these files from this repository may break the sound restoration feature for other users.
+
+---
+*Official Website: [banancraft.prv.pl](https://banancraft.prv.pl)*
